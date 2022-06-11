@@ -31,7 +31,6 @@
   position: absolute;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   /* line 49, scss/_manu.scss */
   .menu.show {
@@ -50,22 +49,22 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: rgba(55, 55, 55, 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
-    /* line 73, scss/_manu.scss */
+    /* line 74, scss/_manu.scss */
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
-  /* line 80, scss/_manu.scss */
+  /* line 81, scss/_manu.scss */
   .menu-branding {
-    background: #444;
+    background: rgba(68, 68, 68, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
-    /* line 85, scss/_manu.scss */
+    /* line 87, scss/_manu.scss */
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
-    /* line 90, scss/_manu.scss */
+    /* line 92, scss/_manu.scss */
     .menu-branding .portrait {
       width: 400px;
       height: 400px;
@@ -73,17 +72,17 @@
       background: url("../img/portrait_small.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a; }
-  /* line 99, scss/_manu.scss */
+  /* line 101, scss/_manu.scss */
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
-    /* line 103, scss/_manu.scss */
+    /* line 105, scss/_manu.scss */
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
-    /* line 108, scss/_manu.scss */
+    /* line 110, scss/_manu.scss */
     .menu .nav-item.current > a {
       color: #eece1a; }
-  /* line 113, scss/_manu.scss */
+  /* line 115, scss/_manu.scss */
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -93,23 +92,23 @@
     color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-out; }
-    /* line 123, scss/_manu.scss */
+    /* line 125, scss/_manu.scss */
     .menu .nav-link:hover {
       color: #eece1a; }
 
-/* line 131, scss/_manu.scss */
+/* line 133, scss/_manu.scss */
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
 
-/* line 131, scss/_manu.scss */
+/* line 133, scss/_manu.scss */
 .nav-item:nth-child(2) {
   transition-delay: 0.2s; }
 
-/* line 131, scss/_manu.scss */
+/* line 133, scss/_manu.scss */
 .nav-item:nth-child(3) {
   transition-delay: 0.3s; }
 
-/* line 131, scss/_manu.scss */
+/* line 133, scss/_manu.scss */
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
